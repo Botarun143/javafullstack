@@ -60,7 +60,7 @@ public class FunctionService {
         System.out.println("Output using supplier and get for employee  "+employeeSupp.getFirstName()+employeeSupp.getLastName());
 
         Car car=functionService.carSupplier.get();
-        System.out.println("Output using sulpplier and get for the car "+car.getBrandName()+car.getModelName());
+        System.out.println("Output using supplier and get for the car "+car.getBrandName()+car.getModelName());
 
 
     }
