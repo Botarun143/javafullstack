@@ -56,7 +56,9 @@ public class FunctionService {
         String supplierFunc=functionService.supplierLamb.get();
         System.out.println("Output using supplier and get  "+supplierFunc);
 
-        Employee employeeSupp= functionService.employeeSupplier.get();
+        Employee employeeSupp=new Employee("dinesh","kumar");
+        System.out.println("constructor"+employeeSupp.getFirstName()+" "+employeeSupp.getLastName());
+         employeeSupp= functionService.employeeSupplier.get();
         System.out.println("Output using supplier and get for employee  "+employeeSupp.getFirstName()+employeeSupp.getLastName());
 
         Car car=functionService.carSupplier.get();
